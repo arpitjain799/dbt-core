@@ -73,8 +73,8 @@ setup(
         # ----
         # These are major-version-0 packages also maintained by dbt-labs. Accept patches.
         "dbt-extractor~=0.4.1",
-        "hologram>=0.0.14,<=0.0.16",  # includes transitive dependencies on python-dateutil and jsonschema
-        "minimal-snowplow-tracker==0.0.2",
+        "hologram~=0.0.16",  # includes transitive dependencies on python-dateutil and jsonschema
+        "minimal-snowplow-tracker~=0.0.2",
         # ----
         # Expect compatibility with all new versions of these packages, so lower bounds only.
         "packaging>20.9",
